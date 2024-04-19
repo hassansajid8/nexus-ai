@@ -1,7 +1,7 @@
 export default {
     pages: {
       '/chat': {
-        entry: 'chat.html'
+        entry: './chat.html'
       }
     }
   }
