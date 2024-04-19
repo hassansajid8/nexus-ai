@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus AI</title>
+</head>
+
+<body>
+  <div id="app" class="min-h-screen px-[39px] py-[22px]">
+    <!-- The main container -->
+    <main class="">
+      
+      <div class="flex justify-end m-0">
+        <!-- Login Button -->
+        <a href="/chat" class="m-0">
+          <button class="w-[105px] h-[38px] bg-purple-50 text-white-0 mt-0 hover:bg-purple-100 shadow-md">
+            Login
+          </button>
+        </a>
+      </div>
+
+      <div class="flex flex-col sm:flex-row-reverse mx-auto sm:items-center lg:px-40 h-2/5">
+        <!-- Image -->
+        <div class="w-full sm:w-1/2 mx-auto my-5">
+          <img src="qbo-img.svg" alt="qbo" class="w-full md:w-4/5">
+        </div>
+  
+        <div class="flex flex-col justify-evenly sm:w-1/2">
+          <!-- Logo + title -->
+          <div class="flex flex-col my-5">
+            <p class="text-5xl sm:text-7xl xl:text-8xl font-bold">nexus</p>
+            <p class="font-bold lg:text-2xl mt-2">Your personal AI assistant</p>
+          </div>
+    
+          <!-- Description -->
+          <div class="my-6 max-w-80">
+            <p class="w-11/12">Get personalized support that feels human, powered by AI.</p>
+          </div>
+    
+          <!-- Start button -->
+          <div class="my-5">
+            <a href="/chat.html">
+              <button id="start-btn" class="px-5 h-14 bg-gradient-to-r from-purple-50 to-purple-100 text-white-0 text-xl shadow-md">
+                Start chatting <span>></span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- footer -->
+      <div class="mt-9 md:mt-36">
+        <div class="w-fit mx-auto mb-3">
+          <a href="">
+            <img src="github.svg" alt="icon">
+          </a>
+        </div>
+        <p class="text-sm text-center">Designed & Developed By <a href="https://www.linkedin.com/in/hassansajid008/" class="underline">Hassan Sajid</a></p>
+      </div>
+
+    </main>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
